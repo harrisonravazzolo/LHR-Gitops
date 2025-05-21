@@ -18,6 +18,14 @@ queries:
 agent_options:
   path: ../lib/agent-options.yml
 controls:
+  macos_updates:
+    deadline: "2025-06-01"
+    minimum_version: "15.4.0" 
+  windows updates:
+    deadline: "2025-06-01"
+    minimum_version: "10.0.19045"
+  custom_settings:
+    - path: ../lib/disable-bluetooth-file-sharing.mobileconfig
   scripts:
     - path: ../lib/remove-zoom-artifacts.script.sh
     - path: ../lib/set-timezone.script.sh
