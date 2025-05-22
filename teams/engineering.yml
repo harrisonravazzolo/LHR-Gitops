@@ -12,7 +12,7 @@ policies:
   - path: ../lib/all-windows-updates-installed.policies.yml
   - path: ../lib/dns-resolvers.policies.yml
 queries:
-  - path: ../lib/collect-usb-devices.queries.yml
+  - path:../lib/collect-usb-devices.queries.yml
   - path: ../lib/collect-failed-login-attempts.queries.yml
 agent_options:
   path: ../lib/agent-options.yml
