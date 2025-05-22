@@ -37,3 +37,4 @@ team_settings:
 software:
   packages:
     - path: ../lib/zoom.yml
+    - path: ../lib/cfwarp.yml
